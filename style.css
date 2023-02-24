@@ -1,0 +1,42 @@
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.input-section {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+label {
+  width: 100px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+#addToDictionaryButtonContainer{
+    display: inline-block;
+}
