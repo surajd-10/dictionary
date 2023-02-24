@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //         e.target.style.display = "none"
 //       }
 //     });
-// });
+});
 
 const renderTable = () => {
   const tableBody = document.getElementsByTagName("tbody")[0];
