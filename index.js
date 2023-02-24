@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
-      console.log("data", data);
       dictionary = data.map((result) => ({
         name: result.name,
         phoneNumber: result.phone,
@@ -15,12 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
 //   document
 //     .getElementById("addToDictionaryButtonContainer")
 //     .addEventListener("click", (e) => {
-//       console.log("here container", e.target);
 //       if (e.target.id === "addToDictionaryButton") {
-//         e.target.style["background-color"] = "yellow";
+//         e.target.style.display = "none"
 //       }
 //     });
-});
+// });
 
 const renderTable = () => {
   const tableBody = document.getElementsByTagName("tbody")[0];
